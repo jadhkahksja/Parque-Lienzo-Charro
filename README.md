@@ -1,2 +1,168 @@
-# Parque-Lienzo-Charro
-Página web sobre parque reconstructivo.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parque Lienzo Charro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0ebff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #a6dcef;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        h1 span {
+            display: inline-block;
+            margin-right: 5px;
+            animation: colorChange 3s infinite alternate;
+        }
+        /* Orden de arcoíris para "Parque" y "Lienzo" */
+        .color1 { color: #ff0000; } /* Rojo */
+        .color2 { color: #ff7f00; } /* Naranja */
+        .color3 { color: #ffff00; } /* Amarillo */
+        .color4 { color: #00ff00; } /* Verde */
+        .color5 { color: #0000ff; } /* Azul */
+        .color6 { color: #4b0082; } /* Índigo */
+        .color7 { color: #8b00ff; } /* Violeta */
+        .colorWhite { color: white; } /* Blanco para "Charro" */
+        h2 {
+            color: #c084fc;
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f8f9fa;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 1.1rem;
+            transition: transform 0.3s;
+        }
+        li:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: #ffc0cb;
+            color: #ffffff;
+            padding: 12px 24px;
+            margin: 10px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .btn:hover {
+            background-color: #ffafbd;
+        }
+        .big-btn {
+            background-color: #ff6b6b;
+            padding: 16px 32px;
+            font-size: 1.4rem;
+            border-radius: 40px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .big-btn:hover {
+            background-color: #ff8787;
+        }
+        footer {
+            background-color: #a6dcef;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>
+        <!-- "Parque" con colores de arcoíris -->
+        <span class="color1">P</span><span class="color2">a</span><span class="color3">r</span><span class="color4">q</span><span class="color5">u</span><span class="color6">e</span>
+        <!-- "Lienzo" con colores de arcoíris -->
+        <span class="color1">L</span><span class="color2">i</span><span class="color3">e</span><span class="color4">n</span><span class="color5">z</span><span class="color6">o</span>
+        <!-- "Charro" en blanco -->
+        <span class="colorWhite">C</span><span class="colorWhite">h</span><span class="colorWhite">a</span><span class="colorWhite">r</span><span class="colorWhite">r</span><span class="colorWhite">o</span>
+    </h1>
+</header>
+
+<h2>¿Qué es un parque?</h2>
+<p>🛝 Un parque es un espacio al aire libre diseñado para la recreación y convivencia de la comunidad. Suelen tener áreas verdes, juegos y espacios para actividades.</p>
+
+<h2>¿Por qué reconstruir el Parque Lienzo Charro?</h2>
+<ul>
+    <li>🎯 El parque está en mal estado: juegos oxidados, mucha tierra y piedras.</li>
+    <li>🌈 Queremos que sea más seguro y colorido para los niños y la comunidad.</li>
+    <li>🌱 Plantaremos árboles para dar sombra y frescura.</li>
+    <li>🗑️ Colocaremos botes de basura para mantenerlo limpio.</li>
+</ul>
+
+<h2>Datos Curiosos 🌟</h2>
+<ul>
+    <li>🌲 Los pinos son perfectos para parques porque son duraderos y dan mucha sombra.</li>
+    <li>🌈 Los colores llamativos como el amarillo y el rojo atraen más la atención de los niños.</li>
+    <li>⚾️ El parque está ubicado entre una primaria y el estadio de béisbol del Cobach.</li>
+    <li>🛹 La pista de skate es una gran atracción para jóvenes y niños.</li>
+    <li>🍀 El verde está asociado con la calma y la naturaleza, perfecto para parques.</li>
+</ul>
+
+<h2>Imágenes del parque 🖼️</h2>
+<img src="parque 2.jpg" alt="Imagen del Parque">
+<img src="parque 1.jpg" alt="Imagen del Parque">
+<img src="parque 6.jpg" alt="Imagen del Parque">
+<img src="parque 3.jpg" alt="Imagen del Parque">
+
+<div class="buttons">
+    <a href="https://www.instagram.com/gaby36v/" class="btn" target="_blank">Instagram de Gaby36v</a>
+    <a href="https://www.instagram.com/attbsk/" class="btn" target="_blank">Instagram de attbsk</a>
+</div>
+
+<div class="buttons">
+    <a href="#" class="btn big-btn">Ayúdanos con el proyecto</a>
+</div>
+
+<footer>
+    2025 Parque Lienzo Charro, todos los derechos reservados.
+</footer>
+
+</body>
+</html>
